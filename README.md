@@ -25,6 +25,21 @@ El objetivo general de este proyecto es analizar y predecir el impacto de los in
 - Proponer una base técnica que permita desarrollar herramientas predictivas para la toma de decisiones en la gestión forestal y la prevención de riesgos ambientales.
 </p>
 
+## MATERIALES Y MÉTODOS
+<p align="justify">
+Se utilizó una base de datos oficial de incendios forestales en México, obtenida de reportes públicos nacionales. Esta incluía variables como ubicación geográfica (latitud y longitud), entidad federativa, tipo de vegetación, causa probable, superficie afectada, esfuerzo de atención (días/persona), tipo de atención recibida y clasificación del impacto.
+
+Los datos fueron procesados utilizando el lenguaje de programación Python. Se realizaron las siguientes etapas:
+
+1. **Limpieza de datos**: Se eliminaron registros con valores faltantes en variables críticas y se imputaron categorías vacías con la etiqueta “No especificado”.
+2. **Codificación**: Las variables categóricas fueron transformadas utilizando codificación One-Hot para permitir su uso en modelos de aprendizaje automático.
+3. **Separación de conjuntos**: El conjunto de datos fue dividido en subconjuntos de entrenamiento (80%) y prueba (20%) mediante muestreo aleatorio estratificado.
+4. **Entrenamiento del modelo**: Se ajustó un clasificador Random Forest con 100 árboles (`n_estimators=100`) usando la implementación de `scikit-learn`. 
+5. **Evaluación del modelo**: Se utilizó la matriz de confusión, el reporte de clasificación (precisión, recall, f1-score), y el análisis de importancia de variables para interpretar los resultados del modelo.
+
+Todo el procesamiento, visualización y entrenamiento se realizó en un entorno de trabajo reproducible basado en Jupyter Notebook, utilizando las librerías `pandas`, `numpy`, `matplotlib`, `seaborn` y `scikit-learn`.
+</p>
+
 ## REFERENCIAS
 - CONAFOR. (2022). *Informe nacional de incendios forestales 2022*. Comisión Nacional Forestal. https://www.gob.mx/conafor
 
