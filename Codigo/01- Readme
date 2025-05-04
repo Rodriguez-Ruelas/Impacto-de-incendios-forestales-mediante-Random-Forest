@@ -1,0 +1,8 @@
+### 🐍 Archivos principales de código
+
+- **`Paso 1 - Limpieza y preparación de datos para Random Forest (clasificación).py`**  
+  Realiza la carga, limpieza, codificación y exportación del conjunto de datos listo para modelado.
+
+- **`Paso 2 - Entrenar el modelo Random Forest - Mostrar importancia de variables.py`**  
+  Entrena el modelo de clasificación Random Forest, evalúa su desempeño y visualiza la matriz de confusión y las variables más importantes.
+
