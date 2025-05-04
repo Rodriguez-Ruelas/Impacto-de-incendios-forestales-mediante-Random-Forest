@@ -57,6 +57,7 @@ El análisis de importancia de variables arrojó que la **superficie afectada** 
 </div>
 
 
+
 Los resultados obtenidos validan el enfoque utilizado y permiten identificar los factores más relevantes en la dinámica de los incendios forestales en México. No obstante, las dificultades en la clasificación de clases poco representadas sugieren la necesidad de explorar estrategias adicionales, como técnicas de balanceo de clases o el ajuste de hiperparámetros del modelo.
 </p>
 
