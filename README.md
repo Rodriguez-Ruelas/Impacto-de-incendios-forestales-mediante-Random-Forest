@@ -40,6 +40,15 @@ Los datos fueron procesados utilizando el lenguaje de programación Python. Se r
 Todo el procesamiento, visualización y entrenamiento se realizó en un entorno de trabajo reproducible basado en Jupyter Notebook, utilizando las librerías `pandas`, `numpy`, `matplotlib`, `seaborn` y `scikit-learn`.
 </p>
 
+## RESULTADOS
+<p align="justify">
+El modelo Random Forest entrenado logró una precisión general elevada, especialmente en la predicción de la clase más frecuente correspondiente al nivel de impacto “moderado”. La matriz de confusión reveló que, si bien el modelo clasifica correctamente la mayoría de los casos de impacto moderado, presenta dificultades al distinguir entre las clases minoritarias, como “mínimo” y “severo”. Este comportamiento sugiere un desbalance en las clases de la variable objetivo, lo que influye negativamente en la capacidad del modelo para aprender patrones representativos de las categorías menos frecuentes.
+
+El análisis de importancia de variables arrojó que la **superficie afectada** fue el principal predictor del nivel de impacto del incendio. Le siguieron en relevancia la **latitud**, el número de **días/persona** dedicados al control del incendio, la **longitud** y la **semana del año** en que ocurrió el evento. También se observaron contribuciones importantes de ciertas categorías de vegetación y de entidades federativas específicas, lo que indica que el contexto ecológico y geográfico tiene un papel clave en la severidad de los incendios.
+
+Los resultados obtenidos validan el enfoque utilizado y permiten identificar los factores más relevantes en la dinámica de los incendios forestales en México. No obstante, las dificultades en la clasificación de clases poco representadas sugieren la necesidad de explorar estrategias adicionales, como técnicas de balanceo de clases o el ajuste de hiperparámetros del modelo.
+</p>
+
 ## REFERENCIAS
 - CONAFOR. (2022). *Informe nacional de incendios forestales 2022*. Comisión Nacional Forestal. https://www.gob.mx/conafor
 
