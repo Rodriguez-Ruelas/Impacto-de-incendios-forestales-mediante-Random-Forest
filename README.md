@@ -56,6 +56,20 @@ El análisis de importancia de variables arrojó que la **superficie afectada** 
 <p><strong>Figura 2.</strong> Principales 20 variables predictoras del impacto de incendios forestales según el modelo Random Forest.</p>
 </div>
 
+<p align="justify">
+La Figura 3 muestra un análisis exploratorio de las principales variables continuas del conjunto de datos, diferenciadas por la clase de impacto de incendio forestal. A través del pairplot, se observa que la variable <strong>Superficie</strong> tiende a tener una mayor dispersión en la clase de impacto <em>Severo</em>, lo que indica su posible poder predictivo en la clasificación de incendios de alta intensidad.
+
+En cuanto a las variables geográficas, <strong>Latitud</strong> y <strong>Longitud</strong> muestran una distribución diferenciada entre clases, sugiriendo que la ubicación geográfica también juega un papel en la severidad del impacto. Las clases <em>Moderado</em> y <em>Mínimo</em> parecen concentrarse en ciertos rangos de latitud y longitud, lo que podría reflejar patrones regionales.
+
+La variable <strong>Total días/persona</strong>, que representa el esfuerzo humano desplegado para atender los incendios, muestra cierta correlación positiva con la severidad, ya que los valores más altos también se presentan con mayor frecuencia en la clase <em>Severo</em>.
+
+Estas observaciones preliminares refuerzan la relevancia de las variables seleccionadas como predictoras clave en el modelo de Random Forest y justifican su inclusión en las etapas de entrenamiento y análisis de importancia de variables.
+</p>
+
+<div align="center">
+<img src="https://github.com/Rodriguez-Ruelas/Impacto-de-incendios-forestales-mediante-Random-Forest/blob/main/Images/Distribuci%C3%B3n%20de%20variables%20continuas%20seg%C3%BAn%20clasificaci%C3%B3n.png?raw=true" alt="Pairplot variables continuas" width="800"/>
+<p><strong>Figura 3.</strong> Distribución de variables continuas diferenciadas por clase de impacto de incendio forestal.</p>
+</div>
 
 
 Los resultados obtenidos validan el enfoque utilizado y permiten identificar los factores más relevantes en la dinámica de los incendios forestales en México. No obstante, las dificultades en la clasificación de clases poco representadas sugieren la necesidad de explorar estrategias adicionales, como técnicas de balanceo de clases o el ajuste de hiperparámetros del modelo.
