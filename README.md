@@ -14,10 +14,18 @@ Diversos estudios han señalado que la mayoría de los incendios forestales en e
 En este contexto, el presente proyecto emplea técnicas de aprendizaje automático, específicamente el modelo Random Forest, para analizar y predecir el impacto de los incendios forestales en México. Al identificar las variables más influyentes en la severidad de estos siniestros, se busca proporcionar herramientas que apoyen la toma de decisiones en la gestión y prevención de incendios, contribuyendo así a la conservación de los recursos forestales y la seguridad de las comunidades.
 </p>
 
+## OBJETIVOS
+<p align="justify">
+El objetivo general de este proyecto es analizar y predecir el impacto de los incendios forestales en México mediante un modelo de clasificación Random Forest, utilizando variables ambientales, geográficas y de gestión.
 
+### Objetivos específicos:
+- Preparar y limpiar una base de datos nacional de incendios forestales para su análisis mediante aprendizaje automático.
+- Identificar las variables más relevantes en la clasificación del impacto de los incendios, mediante el análisis de importancia del modelo.
+- Evaluar el desempeño del modelo utilizando métricas de clasificación como la matriz de confusión y el reporte de precisión.
+- Proponer una base técnica que permita desarrollar herramientas predictivas para la toma de decisiones en la gestión forestal y la prevención de riesgos ambientales.
+</p>
 
 ## REFERENCIAS
-
 - CONAFOR. (2022). *Informe nacional de incendios forestales 2022*. Comisión Nacional Forestal. https://www.gob.mx/conafor
 
 - PROFEPA. (s.f.). *Prevención y atención de incendios forestales*. Procuraduría Federal de Protección al Ambiente. https://www.gob.mx/profepa
