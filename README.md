@@ -49,6 +49,16 @@ El análisis de importancia de variables arrojó que la **superficie afectada** 
 Los resultados obtenidos validan el enfoque utilizado y permiten identificar los factores más relevantes en la dinámica de los incendios forestales en México. No obstante, las dificultades en la clasificación de clases poco representadas sugieren la necesidad de explorar estrategias adicionales, como técnicas de balanceo de clases o el ajuste de hiperparámetros del modelo.
 </p>
 
+## CONCLUSIÓN
+<p align="justify">
+El uso del modelo Random Forest permitió identificar y jerarquizar las variables más relevantes en la clasificación del impacto de incendios forestales en México. Factores como la superficie afectada, la localización geográfica, el esfuerzo humano involucrado y la temporalidad del evento se posicionaron como predictores clave de la severidad de los incendios.
+
+El modelo mostró un desempeño adecuado en términos generales, especialmente en la clase más representada. Sin embargo, su dificultad para clasificar correctamente los eventos menos frecuentes resalta la necesidad de abordar el desbalance de clases presente en los datos. Este hallazgo representa una oportunidad para aplicar técnicas complementarias que mejoren la equidad del modelo en la predicción de todas las categorías.
+
+En conjunto, este trabajo demuestra el potencial del aprendizaje automático para apoyar el análisis exploratorio y la toma de decisiones en la gestión de incendios forestales. La integración de datos espaciales, ecológicos y operativos en modelos predictivos constituye una herramienta poderosa para anticipar el riesgo y planificar estrategias de respuesta más eficaces y focalizadas.
+</p>
+
+
 ## REFERENCIAS
 - CONAFOR. (2022). *Informe nacional de incendios forestales 2022*. Comisión Nacional Forestal. https://www.gob.mx/conafor
 
