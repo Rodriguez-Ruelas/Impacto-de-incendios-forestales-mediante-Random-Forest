@@ -13,3 +13,16 @@ Diversos estudios han señalado que la mayoría de los incendios forestales en e
 
 En este contexto, el presente proyecto emplea técnicas de aprendizaje automático, específicamente el modelo Random Forest, para analizar y predecir el impacto de los incendios forestales en México. Al identificar las variables más influyentes en la severidad de estos siniestros, se busca proporcionar herramientas que apoyen la toma de decisiones en la gestión y prevención de incendios, contribuyendo así a la conservación de los recursos forestales y la seguridad de las comunidades.
 </p>
+
+
+## REFERENCIAS
+
+- CONAFOR. (2022). *Informe nacional de incendios forestales 2022*. Comisión Nacional Forestal. https://www.gob.mx/conafor
+
+- PROFEPA. (s.f.). *Prevención y atención de incendios forestales*. Procuraduría Federal de Protección al Ambiente. https://www.gob.mx/profepa
+
+- Rodríguez-Trejo, D. A., & Fulé, P. Z. (2003). Fire ecology of Mexican pines and a fire management proposal. *International Journal of Wildland Fire, 12*(1), 23–37. https://doi.org/10.1071/WF02040
+
+- Velasco-Rosas, N., & Fulé, P. Z. (2020). Human and climate drivers of fire regimes in central Mexico. *Fire Ecology, 16*(1), 1–16. https://doi.org/10.1186/s42408-020-00077-5
+
+- Jardel-Peláez, E. J., & Pérez-Salicrup, D. R. (2018). El régimen del fuego en los bosques templados de México: estado del conocimiento y retos para la gestión forestal. *Madera y Bosques, 24*(3), e2431796. https://doi.org/10.21829/myb.2018.2431796
