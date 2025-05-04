@@ -51,6 +51,12 @@ El modelo Random Forest entrenado logró una precisión general elevada, especia
 
 El análisis de importancia de variables arrojó que la **superficie afectada** fue el principal predictor del nivel de impacto del incendio. Le siguieron en relevancia la **latitud**, el número de **días/persona** dedicados al control del incendio, la **longitud** y la **semana del año** en que ocurrió el evento. También se observaron contribuciones importantes de ciertas categorías de vegetación y de entidades federativas específicas, lo que indica que el contexto ecológico y geográfico tiene un papel clave en la severidad de los incendios.
 
+<div align="center">
+<img src="https://github.com/Rodriguez-Ruelas/Impacto-de-incendios-forestales-mediante-Random-Forest/blob/main/Images/top%2020%20variables%20importantes.png?raw=true" alt="Importancia de variables" width="700"/>
+<p><strong>Figura 2.</strong> Principales 20 variables predictoras del impacto de incendios forestales según el modelo Random Forest.</p>
+</div>
+
+
 Los resultados obtenidos validan el enfoque utilizado y permiten identificar los factores más relevantes en la dinámica de los incendios forestales en México. No obstante, las dificultades en la clasificación de clases poco representadas sugieren la necesidad de explorar estrategias adicionales, como técnicas de balanceo de clases o el ajuste de hiperparámetros del modelo.
 </p>
 
