@@ -1,20 +1,5 @@
 # Impacto de incendios forestales mediante Random Forest
 
-## Introducción
-Los incendios forestales representan una amenaza constante para los ecosistemas y poblaciones humanas. Comprender los factores que determinan su impacto es clave para diseñar estrategias efectivas de prevención y atención. En este estudio se utilizó un modelo de aprendizaje automático para identificar las variables que mejor predicen la severidad de los incendios forestales en México.
-
-## Objetivo
-Determinar las variables ambientales, espaciales y de gestión que más influyen en la clasificación del impacto de incendios forestales utilizando un modelo Random Forest.
-
-## Materiales y Métodos
-Se analizó un conjunto de datos proveniente de reportes nacionales de incendios forestales, conteniendo información de ubicación, tipo de vegetación, superficie afectada, causa probable, esfuerzo humano (días/persona), y clasificación del impacto (variable objetivo).  
-Se eliminaron registros incompletos, se codificaron variables categóricas mediante One-Hot Encoding, y se dividió el conjunto en entrenamiento (80%) y prueba (20%).  
-Se ajustó un clasificador Random Forest con 100 árboles, y se evaluó mediante matriz de confusión y análisis de importancia de variables.
-
-## Resultados
-El modelo obtuvo buen desempeño general, con alta precisión en la predicción de la clase más frecuente. Sin embargo, mostró dificultades al identificar correctamente las clases minoritarias, indicando un posible desbalance.  
-Las variables más importantes para la predicción del impacto fueron: superficie afectada, latitud, esfuerzo humano, longitud y semana del año. También influyeron ciertas categorías de vegetación y entidades federativas específicas.
-
-## Conclusión
-La superficie quemada, la ubicación geográfica y el esfuerzo de atención son determinantes clave en la clasificación del impacto de los incendios forestales.  
-El modelo Random Forest demostró ser útil para este análisis exploratorio, aunque futuras versiones deberían considerar técnicas de balanceo de clases para mejorar la precisión en eventos menos frecuentes.
+## RESUMEN
+Los incendios forestales representan una amenaza constante para los ecosistemas y poblaciones humanas. Comprender los factores que determinan su impacto es clave para diseñar estrategias efectivas de prevención y atención. En este estudio se utilizó un modelo de aprendizaje automático para identificar las variables que mejor predicen la severidad de los incendios forestales en México.Determinar las variables ambientales, espaciales y de gestión que más influyen en la clasificación del impacto de incendios forestales utilizando un modelo Random Forest.Se analizó un conjunto de datos proveniente de reportes nacionales de incendios forestales, conteniendo información de ubicación, tipo de vegetación, superficie afectada, causa probable, esfuerzo humano (días/persona), y clasificación del impacto (variable objetivo). Se eliminaron registros incompletos, se codificaron variables categóricas mediante One-Hot Encoding, y se dividió el conjunto en entrenamiento (80%) y prueba (20%). Se ajustó un clasificador Random Forest con 100 árboles, y se evaluó mediante matriz de confusión y análisis de importancia de variables.El modelo obtuvo buen desempeño general, con alta precisión en la predicción de la clase más frecuente. Sin embargo, mostró dificultades al identificar correctamente las clases minoritarias, indicando un posible desbalance.  
+Las variables más importantes para la predicción del impacto fueron: superficie afectada, latitud, esfuerzo humano, longitud y semana del año. También influyeron ciertas categorías de vegetación y entidades federativas específicas. La superficie quemada, la ubicación geográfica y el esfuerzo de atención son determinantes clave en la clasificación del impacto de los incendios forestales. El modelo Random Forest demostró ser útil para este análisis exploratorio, aunque futuras versiones deberían considerar técnicas de balanceo de clases para mejorar la precisión en eventos menos frecuentes.
