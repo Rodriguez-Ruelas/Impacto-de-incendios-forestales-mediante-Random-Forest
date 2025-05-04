@@ -7,12 +7,13 @@ Los incendios forestales representan una amenaza constante para los ecosistemas 
 ## INTRODUCCIÓN
 
 <p align="justify">
-Los incendios forestales constituyen una de las principales amenazas para los ecosistemas en México, afectando anualmente un promedio de más de 400,000 hectáreas de vegetación natural. Estos eventos no solo deterioran la biodiversidad y los servicios ecosistémicos, sino que también generan impactos económicos y sociales significativos. La Procuraduría Federal de Protección al Ambiente (PROFEPA) ha destacado la importancia de la denuncia ciudadana y la implementación de medidas preventivas para mitigar estos siniestros.
+Los incendios forestales constituyen una de las principales amenazas para los ecosistemas en México, afectando anualmente un promedio de más de 400,000 hectáreas de vegetación natural (CONAFOR, 2022). Estos eventos no solo deterioran la biodiversidad y los servicios ecosistémicos, sino que también generan impactos económicos y sociales significativos. La Procuraduría Federal de Protección al Ambiente (PROFEPA, s.f.) ha destacado la importancia de la denuncia ciudadana y la implementación de medidas preventivas para mitigar estos siniestros.
 
-Diversos estudios han señalado que la mayoría de los incendios forestales en el país tienen origen antropogénico, relacionados con actividades como quemas agrícolas no controladas, cambio de uso de suelo y prácticas forestales inadecuadas. Además, factores climáticos como sequías prolongadas y altas temperaturas exacerbadas por el cambio climático han incrementado la frecuencia e intensidad de estos eventos.
+Diversos estudios han señalado que la mayoría de los incendios forestales en el país tienen origen antropogénico, relacionados con actividades como quemas agrícolas no controladas, cambio de uso de suelo y prácticas forestales inadecuadas (Rodríguez-Trejo & Fulé, 2003; Jardel-Peláez & Pérez-Salicrup, 2018). Además, factores climáticos como sequías prolongadas y altas temperaturas exacerbadas por el cambio climático han incrementado la frecuencia e intensidad de estos eventos (Velasco-Rosas & Fulé, 2020).
 
 En este contexto, el presente proyecto emplea técnicas de aprendizaje automático, específicamente el modelo Random Forest, para analizar y predecir el impacto de los incendios forestales en México. Al identificar las variables más influyentes en la severidad de estos siniestros, se busca proporcionar herramientas que apoyen la toma de decisiones en la gestión y prevención de incendios, contribuyendo así a la conservación de los recursos forestales y la seguridad de las comunidades.
 </p>
+
 
 
 ## REFERENCIAS
